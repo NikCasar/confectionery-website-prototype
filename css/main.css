@@ -136,9 +136,14 @@ section h2 {
 
 
 .img-flex {
+  width: 100%;
+  display: block;
+  margin: .5em;
+}
+
+.card-image {
   width: 40%;
   display: inline-block;
-  margin: .5em;
 }
 
 .card a {
