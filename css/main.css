@@ -10,7 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: Bebas Neue 100%/1.3 sans-serif;
+  font: normal 100%/1.3 sans-serif;
   font-family: Bebas Neue,sans-serif;
   background-color: #CCA086;
 }
@@ -25,10 +25,12 @@ body{
 
 .logo {
   width: 15%;
+  margin: .3rem;
+  margin-bottom: 0;
 }
 
 header {
-  padding: .5rem 0;
+  padding: .5rem;
   background-color: #F0CCB7;
   text-align: center;
   width: 100%;
@@ -37,25 +39,24 @@ header {
 h1 {
   font-family: Pacifico, cursive;
   font-size: 1.9rem;
-  margin: .5rem 0 0;
+  margin: .4rem;
   color: #E89D8E;
-  text-align: center;
   display: inline-block;
 }
 
 nav {
-  text-align: center;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
 nav li {
-  text-align: left;
+  text-align: center;
+  margin: .2rem;
 }
 
 
 nav a {
-  display: block;
+  display: inline-block;
   padding: .5em .75em;
   text-align: center;
   text-decoration: none;
@@ -81,7 +82,7 @@ nav ul {
 }
 
 .banner img {
-  padding: .55rem;
+  padding: .55em;
   width: 100%;
 }
 
@@ -94,58 +95,66 @@ nav ul {
   font-size: 1rem;
   color: #4F3525;
   margin: 0;
+  padding-bottom: .5em;
 }
 
 .banner-content p {
   font-size: .85rem;
   margin: 0;
+  padding-bottom: .5em;
 }
 
 section h2 {
   text-align: center;
   color: #4F3525;
-  border-top: 3px  solid #4F3525;
+  border-top: 3px  dotted #F0CCB7;
+  padding: .7em;
+  margin: 0;
 }
 
 .card{
   margin: 0;
-  padding: .3rem 1rem;
+  padding: .3em 1em;
   font-size: .75rem;
-  border-bottom: 3px  solid #4F3525;
+  border-bottom: 2px  dotted #4F3525;
+  text-align: center;
 }
 
 .card h3 {
   text-align: center;
   font-size: .85rem;
+  margin: 0;
 }
 
 .card p {
   font-family: Pacifico, cursive;
   font-size: .85rem;
   text-align: center;
-  margin: 0;
   color: #4F3525;
+  margin: 0;
 }
 
 
 .img-flex {
   width: 40%;
   display: inline-block;
-  margin: 0;
-  background-color: #F0CCB7;
+  margin: .5em;
 }
 
 .card a {
+  display: inline-block;
   font-size: 1rem;
   text-align: center;
   text-decoration: none;
   color: #9C7459;
+  margin: .5em;
 }
+
 
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 1.5rem 0;
+  padding: 1.5em 0;
   background-color:#E89D8E;
   border-top: 3px  solid #CCA086;
   color: #9C7459;
@@ -156,7 +165,7 @@ footer {
 
 .copyright {
   width: 100%;
-  padding: 0 1rem;
+  padding: 0 1em;
 }
 
 .social > li {
@@ -176,25 +185,25 @@ footer ul {
   padding-left: 0;
   list-style-type: none;
   margin-top: 0;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5em;
 }
 
 .social {
   display: flex;
-  padding: 0 1rem;
+  padding: 0 1em;
   margin-left: auto;
 }
 
 .btn-social {
   text-decoration: none;
   color: #9C7459;
-  padding: 0 1rem;
-  font-size: .75rem;
+  padding: 0 1em;
+  font-size: .75em;
 }
 
 .info p {
   width: 100%;
-  padding: 0 1rem;
+  padding: 0 1em;
 }
 
 
@@ -217,7 +226,6 @@ footer ul {
     font-size: 120%;
     line-height: 1.5;
   }
-}
 
   header {
     padding-left: 1rem;
