@@ -163,6 +163,7 @@ footer {
 .copyright {
   width: 100%;
   padding: 0 1em;
+  position: absolute;
 }
 
 .social > li {
@@ -314,7 +315,7 @@ footer ul {
   h1,
   nav {
     display: inline-block;
-    vertical-align: left;
+    vertical-align: inherit;
   }
 
   h1 {
